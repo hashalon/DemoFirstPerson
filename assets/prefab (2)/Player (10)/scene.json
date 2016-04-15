@@ -1,0 +1,175 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Player",
+      "children": [
+        {
+          "id": "1",
+          "name": "Torso",
+          "children": [
+            {
+              "id": "2",
+              "name": "Head",
+              "children": [
+                {
+                  "id": "3",
+                  "name": "Gun",
+                  "children": [],
+                  "components": [],
+                  "position": {
+                    "x": 0.5600098371505737,
+                    "y": -1.2713056802749634,
+                    "z": -2.8702194690704346
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": {
+                    "sceneAssetId": "19"
+                  }
+                }
+              ],
+              "components": [
+                {
+                  "type": "Camera",
+                  "config": {
+                    "mode": "perspective",
+                    "fov": 45,
+                    "orthographicScale": 10,
+                    "viewport": {
+                      "x": 0,
+                      "y": 0,
+                      "width": 1,
+                      "height": 1
+                    },
+                    "depth": 0,
+                    "nearClippingPlane": 0.1,
+                    "farClippingPlane": 1000
+                  },
+                  "id": "0"
+                },
+                {
+                  "type": "Behavior",
+                  "config": {
+                    "behaviorName": "DotPostProcess",
+                    "propertyValues": {}
+                  },
+                  "id": "1"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0.9,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 10,
+            "fixedRotation": true,
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shape": "cylinder",
+            "halfSize": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "radius": 0.8,
+            "height": 2.8
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "PlayerController",
+            "propertyValues": {}
+          },
+          "id": "1"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "RotateCollider",
+            "propertyValues": {}
+          },
+          "id": "2"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}

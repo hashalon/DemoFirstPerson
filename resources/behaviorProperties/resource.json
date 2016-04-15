@@ -1,0 +1,87 @@
+{
+  "behaviors": {
+    "PostProcess": {
+      "scriptId": "7",
+      "line": 1,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PlayerController": {
+      "scriptId": "11",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "keyboard",
+          "type": "string"
+        },
+        {
+          "name": "moveSpeed",
+          "type": "number"
+        },
+        {
+          "name": "jumpForce",
+          "type": "number"
+        },
+        {
+          "name": "sensitivity",
+          "type": "number"
+        }
+      ]
+    },
+    "RotateCollider": {
+      "scriptId": "17",
+      "line": 2,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "Bullet": {
+      "scriptId": "24",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "timer",
+          "type": "number"
+        }
+      ]
+    },
+    "Gun": {
+      "scriptId": "23",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "bullet",
+          "type": "string"
+        },
+        {
+          "name": "fireRate",
+          "type": "number"
+        }
+      ]
+    },
+    "DotPostProcess": {
+      "scriptId": "8",
+      "line": 3,
+      "parentBehavior": "PostProcess",
+      "properties": []
+    },
+    "GameBoyPostProcess": {
+      "scriptId": "29",
+      "line": 0,
+      "parentBehavior": "PostProcess",
+      "properties": []
+    },
+    "CRTPostProcess": {
+      "scriptId": "30",
+      "line": 0,
+      "parentBehavior": "PostProcess",
+      "properties": []
+    }
+  }
+}

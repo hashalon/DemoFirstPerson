@@ -1,0 +1,18 @@
+uniform sampler2D tDiffuse;
+varying vec2 vUv;
+
+#define distortion 0.8
+
+vec2 radialDistortion(vec2 coord) {
+  vec2 cc = coord - vec2(0.5);
+  float dist = dot(cc, cc) * distortion;
+  return coord + cc * (1.0 - dist) * dist;
+}
+
+void main() {
+	vec4 rgba = texture2D(tDiffuse, radialDistortion(vUv));
+	vec4 intensity;
+	if(fract(gl_FragCoord.y * (0.5 * 1.5 / 3.0)) > 0.5) intensity = vec4(0);
+	else intensity = smoothstep(0.4, 0.8, rgba) + normalize(rgba);
+	gl_FragColor = intensity * -0.25 + rgba * 1.1;
+}

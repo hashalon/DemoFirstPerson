@@ -1,0 +1,7 @@
+{
+  "id": "ljPn",
+  "name": "DemoFirstPerson",
+  "description": "This demo project show how to create a FPS game and how to apply postprocessing effects",
+  "systemId": "game",
+  "formatVersion": 5
+}

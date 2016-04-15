@@ -1,0 +1,13 @@
+{
+  "formatVersion": 1,
+  "uniforms": [
+    {
+      "id": "0",
+      "name": "tDiffuse",
+      "type": "t",
+      "value": ""
+    }
+  ],
+  "useLightUniforms": false,
+  "attributes": []
+}
