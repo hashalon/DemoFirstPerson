@@ -1,0 +1,181 @@
+{
+  "name": "DemoFirstPerson",
+  "assets": [
+    {
+      "id": "0",
+      "name": "src",
+      "type": null,
+      "children": [
+        {
+          "id": "31",
+          "name": "Game",
+          "type": "script"
+        },
+        {
+          "id": "6",
+          "name": "Importer",
+          "type": "script"
+        },
+        {
+          "id": "5",
+          "name": "postprocess",
+          "type": null,
+          "children": [
+            {
+              "id": "7",
+              "name": "PostProcess",
+              "type": "script"
+            },
+            {
+              "id": "8",
+              "name": "DotPostProcess",
+              "type": "script"
+            },
+            {
+              "id": "29",
+              "name": "GameBoyPostProcess",
+              "type": "script"
+            },
+            {
+              "id": "30",
+              "name": "CRTPostProcess",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "player",
+          "type": null,
+          "children": [
+            {
+              "id": "11",
+              "name": "PlayerController",
+              "type": "script"
+            },
+            {
+              "id": "12",
+              "name": "PlayerInput",
+              "type": "script"
+            },
+            {
+              "id": "14",
+              "name": "PlayerLook",
+              "type": "script"
+            },
+            {
+              "id": "13",
+              "name": "PlayerMove",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "22",
+          "name": "gun",
+          "type": null,
+          "children": [
+            {
+              "id": "23",
+              "name": "Gun",
+              "type": "script"
+            },
+            {
+              "id": "24",
+              "name": "Bullet",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "17",
+          "name": "RotateCollider",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "res",
+      "type": null,
+      "children": [
+        {
+          "id": "26",
+          "name": "shaders",
+          "type": null,
+          "children": [
+            {
+              "id": "27",
+              "name": "GameBoy",
+              "type": "shader"
+            },
+            {
+              "id": "28",
+              "name": "CRT",
+              "type": "shader"
+            }
+          ]
+        },
+        {
+          "id": "25",
+          "name": "models",
+          "type": null,
+          "children": [
+            {
+              "id": "15",
+              "name": "dice",
+              "type": "model"
+            },
+            {
+              "id": "16",
+              "name": "building",
+              "type": "model"
+            },
+            {
+              "id": "18",
+              "name": "gun",
+              "type": "model"
+            },
+            {
+              "id": "20",
+              "name": "bullet",
+              "type": "model"
+            }
+          ]
+        },
+        {
+          "id": "32",
+          "name": "Font",
+          "type": "font"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "prefab",
+      "type": null,
+      "children": [
+        {
+          "id": "10",
+          "name": "Player",
+          "type": "scene"
+        },
+        {
+          "id": "19",
+          "name": "Gun",
+          "type": "scene"
+        },
+        {
+          "id": "21",
+          "name": "Bullet",
+          "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Scene",
+      "type": "scene"
+    }
+  ]
+}
