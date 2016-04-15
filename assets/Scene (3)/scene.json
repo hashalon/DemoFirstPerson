@@ -1,0 +1,566 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Player",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 1.6047312021255493,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "10"
+      }
+    },
+    {
+      "id": "1",
+      "name": "floor0",
+      "children": [],
+      "components": [
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 0,
+            "fixedRotation": true,
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shape": "box",
+            "halfSize": {
+              "x": 10,
+              "y": 10,
+              "z": 10
+            },
+            "radius": 1,
+            "height": 1
+          },
+          "id": "0"
+        },
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "16",
+            "animationId": null,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": -1.44730544090271,
+        "y": -14.26319694519043,
+        "z": -1.998820185661316
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "3",
+      "name": "floor1",
+      "children": [],
+      "components": [
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 0,
+            "fixedRotation": true,
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shape": "box",
+            "halfSize": {
+              "x": 10,
+              "y": 10,
+              "z": 10
+            },
+            "radius": 1,
+            "height": 1
+          },
+          "id": "0"
+        },
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "16",
+            "animationId": null,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": -1.44730544090271,
+        "y": -13.108057975769043,
+        "z": -22.144250869750977
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "4",
+      "name": "floor2",
+      "children": [],
+      "components": [
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 0,
+            "fixedRotation": true,
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shape": "box",
+            "halfSize": {
+              "x": 10,
+              "y": 10,
+              "z": 10
+            },
+            "radius": 1,
+            "height": 1
+          },
+          "id": "0"
+        },
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "16",
+            "animationId": null,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": -21.60331153869629,
+        "y": -11.523409843444824,
+        "z": -22.144250869750977
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "5",
+      "name": "floor3",
+      "children": [],
+      "components": [
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 0,
+            "fixedRotation": true,
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shape": "box",
+            "halfSize": {
+              "x": 10,
+              "y": 10,
+              "z": 10
+            },
+            "radius": 1,
+            "height": 1
+          },
+          "id": "0"
+        },
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "16",
+            "animationId": null,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": -21.60331153869629,
+        "y": -9.785909652709961,
+        "z": -1.8595727682113647
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "2",
+      "name": "dice0",
+      "children": [],
+      "components": [
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "15",
+            "animationId": null,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "0"
+        },
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 1,
+            "fixedRotation": false,
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shape": "box",
+            "halfSize": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "radius": 1,
+            "height": 1
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 2.105445146560669,
+        "y": -2.1642346382141113,
+        "z": -26.041109085083008
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "6",
+      "name": "dice1",
+      "children": [],
+      "components": [
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "15",
+            "animationId": null,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "0"
+        },
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 1,
+            "fixedRotation": false,
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shape": "box",
+            "halfSize": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "radius": 1,
+            "height": 1
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 2.105445146560669,
+        "y": -2.1642346382141113,
+        "z": -24.23518943786621
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "7",
+      "name": "dice2",
+      "children": [],
+      "components": [
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "15",
+            "animationId": null,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "0"
+        },
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 1,
+            "fixedRotation": false,
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shape": "box",
+            "halfSize": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "radius": 1,
+            "height": 1
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 2.105445146560669,
+        "y": -2.1642346382141113,
+        "z": -22.514484405517578
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "8",
+      "name": "dice3",
+      "children": [],
+      "components": [
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "15",
+            "animationId": null,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "0"
+        },
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 1,
+            "fixedRotation": false,
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shape": "box",
+            "halfSize": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "radius": 1,
+            "height": 1
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 2.105445146560669,
+        "y": -2.1642346382141113,
+        "z": -20.484182357788086
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "9",
+      "name": "text",
+      "children": [],
+      "components": [
+        {
+          "type": "TextRenderer",
+          "config": {
+            "fontAssetId": "32",
+            "text": "Press ESC\nto unlock mouse",
+            "alignment": "center",
+            "size": null,
+            "color": null,
+            "verticalAlignment": "center"
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": -4.3392558097839355,
+        "y": 4.541982173919678,
+        "z": -34.097530364990234
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}
