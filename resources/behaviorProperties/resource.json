@@ -4,7 +4,16 @@
       "scriptId": "7",
       "line": 1,
       "parentBehavior": null,
-      "properties": []
+      "properties": [
+        {
+          "name": "shaderPaths",
+          "type": "string"
+        },
+        {
+          "name": "useSkybox",
+          "type": "boolean"
+        }
+      ]
     },
     "PlayerController": {
       "scriptId": "11",

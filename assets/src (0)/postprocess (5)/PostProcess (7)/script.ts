@@ -1,6 +1,10 @@
 // this behavior only work when added to an actor with a camera
 class PostProcess extends Sup.Behavior {
     
+    // will load shaders that are defined in the assets manager
+    public shaderPaths : string; // format : "path1/shader1;path2/shader2"
+    public useSkybox   : boolean = false;
+    
     protected composer; // of type EffectComposer
     
     // since we use outside scripts, we need to make sure they are imported before using them
@@ -15,8 +19,8 @@ class PostProcess extends Sup.Behavior {
         let renderer = gameInstance.threeRenderer;
         // we create a new composer that will apply its renders to the current renderer
         let composer = new THREE.EffectComposer(renderer);
-        // we clear the canvas from the previous render
-        composer.addPass(new THREE.ClearPass());
+        // if we're not using a skybox, we clear the canvas from the previous render
+        if(!this.useSkybox) composer.addPass(new THREE.ClearPass());
         // we add the render of the scene from the camera as the first pass
         composer.addPass(new THREE.RenderPass(scene, camera.threeCamera));
         
@@ -39,8 +43,19 @@ class PostProcess extends Sup.Behavior {
             // we apply the render of the composer to the renderer
             composer.render();
         };
+        
         // we store the composer as an attribute of the class
         this.composer = composer;
+        
+        // if we have set shader paths
+        if( this.shaderPaths != null ){
+            let paths = this.shaderPaths.split(";");
+            for( let path of paths ){
+                this.addShader(path,false);
+            }
+            // we recover the last passes, and we render it to the screen
+            this.composer.passes[this.composer.passes.length-1].renderToScreen = true;
+        }
     }
     
     public addPass( pass ){

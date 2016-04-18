@@ -27,3 +27,10 @@ THREE = window.SupEngine.THREE;
         window.document.body.appendChild(script_div);
     }
 })();
+
+// you may get an error saying:
+// "EffectComposer() is not a function"
+// this is because, the engine try to call new EffectComposer()
+// before the script is completly imported.
+// Copy the script in your project if it cause you problems
+// this importer is only a proof of concept.
